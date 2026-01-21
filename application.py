@@ -278,3 +278,276 @@ while i==1:
         break
     else:
         print("Invalid Roll Number")
+print("Student Name: ",stud_name)
+print("Section: ",ct_section)
+print("Roll Number: ",stud_rollno)
+print("Subject 1",subject1)
+print("Subject Code: ",subject_code1)
+print("Subject Credit: ",subject_credit1)
+if subject_credit1>0:
+    print("CIE 1: ",cie11)
+    print("CIE-2: ",cie21)
+    print("Average: ",avg_cie1)
+    print("Lab Record: ",lab_record1)
+    print("Assignment: ",assignment1)
+    print("Lab Exam: ",lab1)
+    print("Internals: ",int_total1)
+    print("SEE Exam: ",ext1)
+    print("Total: ",total1)
+    if total1>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie11)
+    print("CIE-2: ",cie21)
+    print("Internals: ",int_total1)
+    print("Assignment: ",assignment1)
+    print("Totals: ",total1)
+    if total1>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 2",subject2)
+print("Subject Code: ",subject_code2)
+print("Subject Credit: ",subject_credit2)
+if subject_credit2>0:
+    print("CIE 1: ",cie12)
+    print("CIE-2: ",cie22)
+    print("Average: ",avg_cie2)
+    print("Lab Record: ",lab_record2)
+    print("Assignment: ",assignment2)
+    print("Lab Exam: ",lab2)
+    print("Internals: ",int_total2)
+    print("SEE Exam: ",ext2)
+    print("Total: ",total2)
+    if total2>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie12)
+    print("CIE-2: ",cie22)
+    print("Internals: ",int_total2)
+    print("Assignment: ",assignment2)
+    print("Totals: ",total2)
+    if total2>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 3",subject3)
+print("Subject Code: ",subject_code3)
+print("Subject Credit: ",subject_credit3)
+if subject_credit3>0:
+    print("CIE 1: ",cie13)
+    print("CIE-2: ",cie23)
+    print("Average: ",avg_cie3)
+    print("Lab Record: ",lab_record3)
+    print("Assignment: ",assignment3)
+    print("Lab Exam: ",lab3)
+    print("Internals: ",int_total3)
+    print("SEE Exam: ",ext3)
+    print("Total: ",total3)
+    if total3>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie13)
+    print("CIE-2: ",cie23)
+    print("Internals: ",int_total3)
+    print("Assignment: ",assignment3)
+    print("Totals: ",total3)
+    if total3>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 4",subject4)
+print("Subject Code: ",subject_code4)
+print("Subject Credit: ",subject_credit4)
+if subject_credit4>0:
+    print("CIE 1: ",cie14)
+    print("CIE-2: ",cie24)
+    print("Average: ",avg_cie4)
+    print("Lab Record: ",lab_record4)
+    print("Assignment: ",assignment4)
+    print("Lab Exam: ",lab4)
+    print("Internals: ",int_total4)
+    print("SEE Exam: ",ext4)
+    print("Total: ",total4)
+    if total4>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie14)
+    print("CIE-2: ",cie24)
+    print("Internals: ",int_total4)
+    print("Assignment: ",assignment4)
+    print("Totals: ",total4)
+    if total4>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 3",subject5)
+print("Subject Code: ",subject_code5)
+print("Subject Credit: ",subject_credit5)
+if subject_credit5>0:
+    print("CIE 1: ",cie15)
+    print("CIE-2: ",cie25)
+    print("Average: ",avg_cie5)
+    print("Lab Record: ",lab_record5)
+    print("Assignment: ",assignment5)
+    print("Lab Exam: ",lab5)
+    print("Internals: ",int_total5)
+    print("SEE Exam: ",ext5)
+    print("Total: ",total5)
+    if total5>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie15)
+    print("CIE-2: ",cie25)
+    print("Internals: ",int_total5)
+    print("Assignment: ",assignment5)
+    print("Totals: ",total5)
+    if total5>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 3",subject3)
+print("Subject Code: ",subject_code3)
+print("Subject Credit: ",subject_credit3)
+if subject_credit3>0:
+    print("CIE 1: ",cie16)
+    print("CIE-2: ",cie26)
+    print("Average: ",avg_cie6)
+    print("Lab Record: ",lab_record6)
+    print("Assignment: ",assignment6)
+    print("Lab Exam: ",lab6)
+    print("Internals: ",int_total6)
+    print("SEE Exam: ",ext6)
+    print("Total: ",total6)
+    if total6>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie16)
+    print("CIE-2: ",cie26)
+    print("Internals: ",int_total6)
+    print("Assignment: ",assignment6)
+    print("Totals: ",total6)
+    if total6>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 3",subject7)
+print("Subject Code: ",subject_code7)
+print("Subject Credit: ",subject_credit7)
+if subject_credit7>0:
+    print("CIE 1: ",cie17)
+    print("CIE-2: ",cie27)
+    print("Average: ",avg_cie7)
+    print("Lab Record: ",lab_record7)
+    print("Assignment: ",assignment7)
+    print("Lab Exam: ",lab7)
+    print("Internals: ",int_total7)
+    print("SEE Exam: ",ext7)
+    print("Total: ",total7)
+    if total7>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie17)
+    print("CIE-2: ",cie27)
+    print("Internals: ",int_total7)
+    print("Assignment: ",assignment7)
+    print("Totals: ",total7)
+    if total7>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 8",subject8)
+print("Subject Code: ",subject_code8)
+print("Subject Credit: ",subject_credit8)
+if subject_credit8>0:
+    print("CIE 1: ",cie18)
+    print("CIE-2: ",cie28)
+    print("Average: ",avg_cie8)
+    print("Lab Record: ",lab_record8)
+    print("Assignment: ",assignment8)
+    print("Lab Exam: ",lab8)
+    print("Internals: ",int_total8)
+    print("SEE Exam: ",ext8)
+    print("Total: ",total8)
+    if total8>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie18)
+    print("CIE-2: ",cie28)
+    print("Internals: ",int_total8)
+    print("Assignment: ",assignment8)
+    print("Totals: ",total8)
+    if total8>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 9",subject9)
+print("Subject Code: ",subject_code9)
+print("Subject Credit: ",subject_credit9)
+if subject_credit9>0:
+    print("CIE 1: ",cie19)
+    print("CIE-2: ",cie29)
+    print("Average: ",avg_cie9)
+    print("Lab Record: ",lab_record9)
+    print("Assignment: ",assignment9)
+    print("Lab Exam: ",lab9)
+    print("Internals: ",int_total9)
+    print("SEE Exam: ",ext9)
+    print("Total: ",total9)
+    if total9>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie19)
+    print("CIE-2: ",cie29)
+    print("Internals: ",int_total9)
+    print("Assignment: ",assignment9)
+    print("Totals: ",total9)
+    if total9>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+print("Subject 3",subject10)
+print("Subject Code: ",subject_code10)
+print("Subject Credit: ",subject_credit10)
+if subject_credit10>0:
+    print("CIE 1: ",cie110)
+    print("CIE-2: ",cie210)
+    print("Average: ",avg_cie10)
+    print("Lab Record: ",lab_record10)
+    print("Assignment: ",assignment10)
+    print("Lab Exam: ",lab10)
+    print("Internals: ",int_total10)
+    print("SEE Exam: ",ext10)
+    print("Total: ",total10)
+    if total10>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
+else: 
+    print("CIE-1: ",cie110)
+    print("CIE-2: ",cie210)
+    print("Internals: ",int_total10)
+    print("Assignment: ",assignment10)
+    print("Totals: ",total10)
+    if total10>40:
+        print("Course Passed")
+    else:
+        print("Course Failed")
