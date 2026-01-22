@@ -551,3 +551,15 @@ else:
         print("Course Passed")
     else:
         print("Course Failed")
+subject_weight1=(subject_credit1/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight2=(subject_credit2/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight3=(subject_credit3/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight4=(subject_credit4/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight5=(subject_credit5/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight6=(subject_credit6/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight7=(subject_credit7/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight8=(subject_credit8/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight9=(subject_credit9/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+subject_weight10=(subject_credit10/(subject_credit1+subject_credit2+subject_credit3+subject_credit4+subject_credit5+subject_credit6+subject_credit7+subject_credit8+subject_credit9+subject_credit10))/2
+cgpa=((total1*subject_weight1)+(total2*subject_weight2)+(total3*subject_weight3)+(total4*subject_weight4)+(total5*subject_weight5)+(total6*subject_weight6)+(total7*subject_weight7)+(total8*subject_weight8)+(total9*subject_weight9)+(total10*subject_weight10))
+print("Present CGPA: ",cgpa)
