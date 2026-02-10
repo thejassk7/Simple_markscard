@@ -42,11 +42,26 @@ while i<2:
         i=i+1
 if i>2:
     exit
-ct_name=input("Name of the teacher: ")
-ct_section=input("Enter Section: ")
+ct_list={}
+section_no=int(input("Enter Number Of Sections in your class: "))
+i=0
+if i<section_no:
+    name=input("Enter Class Teacher: ")
+    name=name.upper()
+    section=input("Enter Section: ")
+    ct_list[name]=section
+    i=i+1
+print("---Class Teacher Section---")
+ct_name=input("Name of the Class teacher: ")
+verify=ct_list.get(ct_name.upper(),"Not Found")
+if verify=="Not Found":
+    print("Verification Unsuccessful")
+    exit
+else:
+    ct_section=verify
+    print("Verification Successful")
 stud_name=input("Enter Student Name: ")
 stud_rollno=int(input("Enter Student Roll Number: "))
-no_subject=int(input("Enter number of Subjects: "))
 credit_subject=[]
 credit_subject_code=[]
 credit_subject_credit=[]
@@ -61,6 +76,7 @@ comp_subject_code=[]
 comp_cie1=[]
 comp_cie2=[]
 comp_assignment=[]
+no_subject=int(input("Enter Number of Subjects: "))
 i=0
 while i<no_subject:
     subject=input("Enter the Subject: ")
@@ -144,6 +160,9 @@ if len(backlog)>0:
 else:
     print("Congratulation. You do not have any backlog.")
     print("Your CGPA: ",cgpa)
+
+
+
 
     
 
